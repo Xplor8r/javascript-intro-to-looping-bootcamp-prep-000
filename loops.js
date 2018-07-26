@@ -22,7 +22,7 @@ function doWhileLoop(array) {
 }
 
 do {
-  console.log('doo-bee-doo-bee-doo')
-} while ();
+  array.length > 0 && maybeTrue()
+} while (maybeTrue());
   return array;
 }
